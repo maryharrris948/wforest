@@ -208,10 +208,10 @@ export default function Transfer() {
                 {errors.selectedBank && <p className="text-red-500 text-sm">{errors.selectedBank}</p>}
               </div>
               <div className="flex items-center justify-between gap-20">
-                <Link href="/dashboard" className="max-w-max flex items-center justify-center rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#222222] text-white">
+                <Link href="/dashboard" className="max-w-max flex items-center justify-center rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#CB4A20] text-white">
                   Cancel
                 </Link>
-                <button type="button" className="w-full rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#222222] text-white" onClick={handleNext}>
+                <button type="button" className="w-full rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#CB4A20] text-white" onClick={handleNext}>
                   Next
                 </button>
               </div>
@@ -223,7 +223,7 @@ export default function Transfer() {
               <div className="mb-3">
                 <span className="">Transfer From</span>
                 <div className="flex gap-2 mt-2">
-                  <div className="rounded-lg flex items-center justify-center w-[35px] h-[35px] bg-[#222222] text-white">WF</div>
+                  <div className="rounded-lg flex items-center justify-center w-[35px] h-[35px] bg-[#CB4A20] text-white">WF</div>
                   <div className="flex flex-col gap-1">
                     <span className="uppercase">
                       {user.holder.firstName} {user.holder.lastName}
@@ -262,10 +262,10 @@ export default function Transfer() {
                 />
               </div>
               <div className="flex items-center justify-between gap-20">
-                <Link href="/dashboard" className="max-w-max flex items-center justify-center rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#222222] text-white">
+                <Link href="/dashboard" className="max-w-max flex items-center justify-center rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#CB4A20] text-white">
                   Cancel
                 </Link>
-                <button type="button" className="w-full rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#222222] text-white" onClick={handleNext}>
+                <button type="button" className="w-full rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#CB4A20] text-white" onClick={handleNext}>
                   Proceed
                 </button>
               </div>
@@ -301,10 +301,10 @@ export default function Transfer() {
               )}
 
               <div className="flex items-center justify-between gap-20">
-                <Link href="/dashboard" className="max-w-max flex items-center justify-center rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#222222] text-white">
+                <Link href="/dashboard" className="max-w-max flex items-center justify-center rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#CB4A20] text-white">
                   Cancel
                 </Link>
-                <button type="submit" className="w-full rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#222222] text-white">
+                <button type="submit" className="w-full rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#CB4A20] text-white">
                   {loading ? 'Loading...' : 'Transfer'}
                 </button>
               </div>
